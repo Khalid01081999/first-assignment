@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Popping",sans-serif;
+}
 nav{
   display: flex;
   justify-content: space-around;
 
 }
-h1{
-
+h3{
+  
+ 
+  font-family: Azeret Mono;
+  font-size: 20px;
+  
 }
 .Download{
   width: 228px;
@@ -17,19 +29,37 @@ h1{
   font-weight: 600;
   line-height: 23px;
 }
+.banner-section-container{
+  max-width: 1400px;
+  height: 652px;
+  text-align: center;
+ 
+}
+
+
 .backgroun-image{
-  width: 1440px;
+  width: 1400px;
   height: 652px;
   background-image: url('assets/Hero-bg.png');
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+ 
 
 }
-
-div{
-  text-align: center;
+.bannar-image-continer{
+   margin-top: 24px;
+}
+#dev{
+  margin-top: 24px;
+}
+p{
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
 }
 #button{
   width: 208px;
@@ -40,15 +70,264 @@ div{
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
+  margin-top: 24px;
   /* line-height: 32px; */
 }
-.second-banner-text-heading{
+
+.development-container{
+  width: 1140px;
+  margin: 0 auto;
+  height: 1395px;
+  background: rgba(13, 19, 33, 0.02);
+  
+}
+.development-content{
+  
+  width: 90%;
+  height: 1100px;
+  margin: 50px auto;
+}
+.development-title{
+  width: 50%;
+  margin: 0 auto;
+  height: 130px;
+}
+.development-title h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.development-title p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
   text-align: center;
 }
 
-.banner-text-second-page{
-  text-align: left;
+.development-resource-container{
+  width: 100%;
+  margin: 0px auto;
+  height: 320px;
+  margin-bottom: 80px;
+  display: flex;
+  margin-top: 50px;
+  background-color: white;
+
 }
-.Layer_1{
+.web-resource-content{
+width: 90%;
+height: 250px;
+display: flex;
+margin: 32px 32px ;
+}
+.title-text-container{
+  width: 50%;
+  margin: 0 auto;
+  height: 250px;
+}
+.image-contant{
+  width: 50%;
+  margin: 0 auto;
+  height: 250px;
+}
+.title-text-container h3{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding: 10px 0px;
+  margin: 15px;
+}
+
+.title-text-container p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+}
+.btn-one,
+.btn-two,
+.btn-three {
+  width: 160px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.first-image{
+  margin-left: 45%;
+  height: 200px;
+  width: 200px;
+}
+
+.third-image {
+  margin-left: 45%;
+  height: 200px;
+  width: 200px;
+}
+.second-image {
+  margin-right: 45%;
+  height: 200px;
+  width: 200px;
+}
+
+/* Inspiration section style */
+
+.insp-container {
+  width: 1140px;
+ 
+  margin: 0 auto;
+  /* background: rgba(13, 19, 33, 0.02); */
+}
+.insp-title-content {
+  width: 90%;
+ 
+  margin: 50px auto;
+}
+.insp-title-content h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 8px 0;
   
+}
+.insp-title-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  /* margin: 24px 0px; */
+}
+
+/* ////////////////////video/////////////////// */
+
+.video{
+  width: 1000px;
+  height: 500px;
+  border: 1px solid green;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 16px;
+  }
+
+  ///////* target-section */////
+
+  .targate-title{
+    width: 1140px; 
+    margin: 0 auto;
+  
+  }
+  .target-title-post{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+  }
+  .current-target-web-design{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+   
+  }
+  .current-target{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: ;
+    margin-top: 10px;
+    gap: 10px;
+    border: 1px solid green;
+  }
+  .Current-target-html{
+    width: 30%;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 10px;
+  }
+  .Current-target-css{
+    width: 30%;
+    padding: 40px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 10px;
+  }
+  .Current-target-java{
+    width: 30%;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 10px;
+  }
+  /* support-section */
+  .Support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 500px;
+    left: 100px;
+    right: 100px;
+    top: 450px;
+    bottom: 179px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    border-radius: 16px;  
+  }
+  .Support-text{
+    
+    color: white;
+    margin:0 auto;
+    text-align: center;
+   
+  }
+  .s-btn1{
+    width: 548px;
+    height: 58px;
+    padding: 0px 10px 0px 21px;
+  
+  }
+  
+  .s-btn{
+    width: 120px;
+    height: 59px;
+    padding: 21px 23px ;
+  }
+
+///////* footer-section *////////
+
+.footer-main {
+  display: flex;
+  height: 100px;
+  background-color: rgba(13, 19, 33, 0.03);
+  margin-top: 50px;}
+  .header-continar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-social a {
+    text-decoration: none;
 }
