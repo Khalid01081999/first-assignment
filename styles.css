@@ -7,19 +7,21 @@
 }
 body{ 
   font-family: "Popping",sans-serif;
-}
-nav{
 
+}
+.nav {
+  width: 1200px;
   display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
-h3{
+.nav h3{
   
- 
   font-family: Azeret Mono;
   font-size: 20px;
+  margin: 10px;
   
 }
 .Download{
@@ -30,28 +32,28 @@ h3{
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
+  margin: 10px;
+  border-radius: 10px;
 }
+
+/*------- first-banner-section ----------*/
+
 .banner-section-container{
-  max-width: 1400px;
+  max-width:1440px;
   height: 652px;
-  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
   background-image: url('./assets/Hero-bg.png');
 }
 
-
-.backgroun-image{
-  width: 1400px;
-  height: 652px;
-  justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-
-}
 .bannar-image-continer{
-   margin-top: 24px;
-
+    width: 998px;
+    height: 582px;
+    margin: 80px auto;
+    text-align: center;
+    justify-content: center;
+  
 }
 
 p{
@@ -61,6 +63,7 @@ p{
   line-height: 26px;
   margin-top: 24px;
 }
+
 .btn-1{
   width: 208px;
   height: 66px;
@@ -71,10 +74,13 @@ p{
   margin-top: 24px;
   /* line-height: 32px; */
 }
+
 .btn-1 a{
   text-decoration: none;
   color: white;
 }
+
+/* ---------- development-section------- */
 
 .development-container{
   width: 1140px;
@@ -148,7 +154,7 @@ margin: 32px 32px ;
   line-height: 20px;
   text-align: left;
   padding: 10px 0px;
-  margin: 15px;
+  margin: 0;
 }
 
 .title-text-container p{
@@ -187,18 +193,17 @@ margin: 32px 32px ;
   width: 200px;
 }
 
-/* Inspiration section style */
+/* --------- Inspiration-section ------------ */
 
 .insp-container {
   width: 1140px;
- 
   margin: 0 auto;
-  /* background: rgba(13, 19, 33, 0.02); */
+
 }
 .insp-title-content {
   width: 90%;
- 
   margin: 50px auto;
+  margin-bottom:20px ;
 }
 .insp-title-content h2 {
   color: rgb(13, 19, 33);
@@ -218,10 +223,9 @@ margin: 32px 32px ;
   font-weight: 400;
   line-height: 18px;
   text-align: center;
-  /* margin: 24px 0px; */
 }
 
-/* ////////////////////video/////////////////// */
+/*---------- video-section ----------*/
 
 .video{
   width: 1000px;
@@ -232,13 +236,12 @@ margin: 32px 32px ;
   margin-top: 20px;
   border-radius: 16px;
   }
-
-  ///////* target-section */////
+  
+  /* --------target-section------ */
 
   .targate-title{
     width: 1140px; 
-    margin: 0 auto;
-    
+    margin: 0 auto; 
   
   }
   .target-title-post{
@@ -282,7 +285,8 @@ margin: 32px 32px ;
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 10px;
   }
-  /* support-section */
+
+  /* -------support-section ------*/
   .Support{
     display: flex;
     flex-direction: column;
@@ -320,23 +324,32 @@ margin: 32px 32px ;
     padding: 21px 23px ;
   }
 
-///////* footer-section *////////
-
+/* --------footer-section----------- */
 .footer-main {
-  display: flex;
-  height: 100px;
-  
-  margin-top: 100px;
-}
-  .header-continar {
-    width: 50%;
+    width: 1440px;
+    height: 100px;
+    background: #eee;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgba(0, 76, 255, 0.03);
     margin: 0 auto;
-    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-container {
+    
+    width: 1140px;
+    height: 36px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-  .footer-social a {
+    align-items:center;
+    background-color: white;
+    margin-bottom: 50px;
+    
+}
+.footer-social a {
     text-decoration: none;
 }
