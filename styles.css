@@ -292,7 +292,7 @@ margin: 32px 32px ;
   .Current-target-java{
     width: 30%;
     padding: 40px;
-    background: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 76, 30, 0.05);
     border-radius: 10px;
   }
 
@@ -309,7 +309,7 @@ margin: 32px 32px ;
     top: 450px;
     bottom: 179px;
     margin: 0 auto;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('./assets/handshake.jpg');
     background-size: cover;
     border-radius: 16px;  
   }
@@ -379,9 +379,9 @@ margin: 32px 32px ;
     background-color: white;
     margin-bottom: 50px;
 }
+
 .footer-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
